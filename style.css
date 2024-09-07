@@ -1,0 +1,123 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 25px;
+    color: white;
+    background-color: #3498de;
+}
+
+
+h1{
+    color: #3498db;
+}
+
+.resume-builder-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form-section{
+    width: 50%;
+    font-size: 1.15rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(https://propakistani.pk/wp-content/uploads/2021/10/Governor-House.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.9); 
+    background-blend-mode: overlay;
+}
+
+form div{
+    margin-bottom: 15px;
+}
+
+form input, form textarea{
+    width: 93%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.resume-display{
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background-image: url(https://propakistani.pk/wp-content/uploads/2021/10/Governor-House.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.9); 
+    background-blend-mode: overlay;
+}
+
+.resume-display div{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover{
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}
+
+
+@media (max-width: 768px){
+    .resume-builder-container{
+        flex-direction: column;
+    .form-section{
+        width: 100%;
+    }
+    .resume-display{
+        width: 100%;
+    }
+    .title{
+        font-size: 1.5rem;
+        padding: 0 50px;
+    }
+    .resume-display{
+        margin: 25px 0;
+    }
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.generate-btn{
+    display: flex;
+    font-size: 1.06rem;
+    width: 13rem;
+    justify-content: left;
+    align-items: center;
+}
+
+
+button img{
+    width: 15%;
+    margin: 0 5px;
+    transition: left 2s ease-in-out;
+}
